@@ -1,0 +1,35 @@
+/* Sidebar.module.css */
+.sidebar {
+  background-color: #282c34;
+  height: 100vh;
+  width: 15vw;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+}
+
+.title {
+  color: white;
+}
+
+.contentList {
+  list-style: none;
+  padding: 0;
+}
+
+.contentItem {
+  color: white;
+  margin: 2px 0;
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.contentItem:hover {
+  background-color: #d5d4d4;
+  color: black;
+  /* Optional: to change text color on hover */
+}

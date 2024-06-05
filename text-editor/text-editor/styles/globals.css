@@ -1,0 +1,81 @@
+@import 'bootstrap/dist/css/bootstrap.min.css';
+@import 'react-draft-wysiwyg/dist/react-draft-wysiwyg.css';
+@import 'draft-js/dist/Draft.css';
+@import 'react-toastify/dist/ReactToastify.css';
+
+body{
+  background-color: #f2f6fd;
+}
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+li:hover {
+  background-color: #f8f4f4;
+}
+.App-header {
+  background-color: #282c34;
+  min-height: 7vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  /* margin-bottom: 5vh; */
+  text-align: center;
+}
+
+.wrapper-class {
+  padding: 1rem;
+  border: 1px solid #ccc;
+}
+
+.editor-class {
+  background-color: lightgray;
+  padding: 1rem;
+  border: 1px solid #ccc;
+}
+
+.toolbar-class {
+  border: 1px solid #ccc;
+}
+
+.code-view {
+  padding: 1rem;
+
+  margin: 10px;
+}
+
+.text-area {
+  width: 100%;
+  background: black;
+  border: 1px solid #ccc;
+  color: white;
+  min-height: 200px;
+}
+
+.toolbarClassName {
+  border-radius: 10px;
+}
+
+.wrapperClassName {
+  border: 1px solid rgb(231, 221, 221);
+  padding: 1rem;
+}
+
+.editorClassName {
+  background-color: rgb(239, 222, 222);
+  border-radius: 10px;
+  padding: 1rem;
+}
+
+button {
+  color: white;
+  background-color: blue;
+  border-radius: 5px;
+}
+
+button:active {
+  box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+}
